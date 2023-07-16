@@ -1,0 +1,29 @@
+{
+  "name": "boltboxgame",
+  "version": "1.0.0",
+  "description": "Library for creating BoltBox games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurntIce16/BoltBoxGame.git"
+  },
+  "keywords": [
+    "BoltBox"
+  ],
+  "author": "Clayton Midgley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BurntIce16/BoltBoxGame/issues"
+  },
+  "homepage": "https://github.com/BurntIce16/BoltBoxGame#readme",
+  "type": "module",
+  "dependencies": {
+    "boltbox": "file:../boltBox",
+    "ip": "^1.1.8",
+    "ws": "^8.13.0"
+  }
+}
